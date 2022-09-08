@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /*
- * main - where the program starts
- * program - using the put function to print to standard output
+ * main: - Entry point
+ *
+ * description: - A C program using the put function to print to standard output
+ *
  * return: always 0 (sucess)
  */
 
