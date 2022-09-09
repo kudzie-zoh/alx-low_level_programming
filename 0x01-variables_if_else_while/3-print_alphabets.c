@@ -10,13 +10,12 @@
 
 int main(void)
 {
-	char ch = 'a';
+	char ch = 'a', CH = 'A';
 		while (ch <= 'z')
 		{
 			putchar(ch);
 			++ch;
 		}
-	char CH = 'A';
 		while (CH <= 'Z')
 		{
 			putchar(CH);
