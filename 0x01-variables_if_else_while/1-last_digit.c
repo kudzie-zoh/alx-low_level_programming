@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: A C program that tells the signage of a random number
+ * Description: A C program that shows the last digit of a random number
  *
  * Return: Always 0 (Success)
  */
