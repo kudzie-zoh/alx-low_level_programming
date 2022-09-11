@@ -24,8 +24,11 @@ int main(void)
 				putchar(' ');
 				putchar((d2 / 10) + 48);
 				putchar((d2 % 10) + 48);
-				putchar(',');
-				putchar(' ');
+				if (((d1 *100) + d2) != 9899)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			++d2;
 		}
