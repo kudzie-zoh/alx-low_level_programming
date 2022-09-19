@@ -17,5 +17,3 @@ int main(void)
 	print_array(array, 5);
 	return (0);
 }
-Footer
-© 2022 GitHub, Inc.
