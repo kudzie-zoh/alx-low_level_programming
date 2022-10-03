@@ -5,4 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 
+void fibonacci_seq(int n);
+
 #endif /* MAIN_H */
