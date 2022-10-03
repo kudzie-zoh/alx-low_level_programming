@@ -1,6 +1,4 @@
-#include "holberton.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "../main.h"
 
 /**
  * print_tab - Prints an array of string
@@ -30,7 +28,7 @@ int main(void)
 {
 	char **tab;
 
-	tab = strtow("      Holberton School         #cisfun      ");
+	tab = strtow("      ALX School         #cisfun      ");
 	if (tab == NULL)
 	{
 		printf("Failed\n");
