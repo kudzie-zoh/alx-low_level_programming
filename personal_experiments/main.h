@@ -6,5 +6,6 @@
 #include <string.h>
 
 void fibonacci_seq(int n);
+void Counter(int *A, int n);
 
 #endif /* MAIN_H */
