@@ -16,5 +16,6 @@ int _putchar(char c);
 int error_exit(void);
 int check_number(char *str);
 int _length(char *str);
+void multiply(char *s1, char *s2);
 
 #endif /* MAIN_H */
