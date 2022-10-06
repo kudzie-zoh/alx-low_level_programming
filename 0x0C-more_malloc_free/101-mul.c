@@ -57,6 +57,45 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  * Return: nothing
 */
 
+/**
+ * check_number - checks if string has only
+ *                numbers
+ *
+ * @str: string to check
+ *
+ * Return: 0 is true 1 if false
+*/
+
+int check_number(char *str)
+{
+	while (*str != '\0')
+	{
+		if (*str < '0' || *str > '9')
+			return (1);
+		str++;
+	}
+	return (0);
+}
+
+/**
+ * _length - get the length of strings
+ *
+ * @str: string to get length of
+ *
+ * Return: length of string
+*/
+
+int _length(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+		i++;
+	return (i);
+}
+
+
+
 void multiply(char *s1, char *s2)
 {
 	int i, l1, l2, total_l, f_digit, s_digit, res = 0, tmp;
