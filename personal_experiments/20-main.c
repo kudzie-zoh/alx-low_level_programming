@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "dog.h"
+#include "20-dog.h"
 
 /**
  * main - check the code
