@@ -1,1 +1,1 @@
-More singly linked functions.
+More singly linked lists project.
