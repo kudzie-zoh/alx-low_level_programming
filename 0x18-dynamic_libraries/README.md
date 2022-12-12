@@ -1,1 +1,1 @@
-My Dynamic library project
+My Dynamic library project.
